@@ -15,11 +15,13 @@ public class Suam {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       int n1, n2, s;
+       int n1, n2, s, r;
        n1=Integer.parseInt(JOptionPane.showInputDialog("Digite el numero 1"));
        n2=Integer.parseInt(JOptionPane.showInputDialog("Digite el numero 2"));
        s=n1+n2;
-       JOptionPane.showMessageDialog(null,"La Suma es"+s);
+       r=n1-n2;
+       JOptionPane.showMessageDialog(null,"La Suma es "+s);
+       JOptionPane.showMessageDialog(null,"La Resta es "+r);
     }
     
 }
